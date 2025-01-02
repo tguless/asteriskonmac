@@ -21,3 +21,7 @@ FreePBX 17.0-latest-EDGE
 
 Known Issues: 
 https://community.freepbx.org/t/installation-fails/103298
+
+Related Repos: 
+https://github.com/tguless/asterisk
+https://github.com/tguless/freepbx
