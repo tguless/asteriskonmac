@@ -35,6 +35,7 @@ services:
       - backup:/backup
       - recordings:/var/spool/asterisk/monitor
       - certificates:/etc/asterisk/keys
+      - ./freepbx/startup.sh:/startup.sh
   
   adminer:
     image: adminer:4.7.6
