@@ -22,4 +22,6 @@ git clone -b asterisk22 https://github.com/tguless/freepbx.git
 #
 # 3. Create a new file docker-compose.yml
 
-docker-compose up
+docker-compose build base
+docker-compose build freepbxbase
+docker-compose up freepbx
